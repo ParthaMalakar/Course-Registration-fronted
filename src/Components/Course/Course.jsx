@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { AiOutlineRead  } from 'react-icons/ai';
-const Course = ({ course }) => {
-    const { id, picture, course_name, description, price, credit } = course;
+const Course = ({ course , handleCourseAdd }) => {
+    const {  picture, course_name, description, price, credit } = course;
     return (
         <div className='bg-[#FFF] p-3 rounded-lg'>
             <div className='space-y-4 p-3'>
@@ -12,7 +12,7 @@ const Course = ({ course }) => {
                     <p>$ Price : {price}</p>
                     <p className='flex text-center justify-center'><AiOutlineRead className='text-2xl'></AiOutlineRead>Credit :{credit}hr</p>                   
                 </div>
-                <button className='btn text-xl text-center bg-[#2F80ED] w-[240px] py-2 rounded-lg  text-white font-semibold'>Select</button>
+                <button onClick={handleCourseAdd} className='btn text-xl text-center bg-[#2F80ED] w-[240px] py-2 rounded-lg  text-white font-semibold'>Select</button>
 
             </div>
         </div>
@@ -20,6 +20,7 @@ const Course = ({ course }) => {
 };
 Course.propTypes = {
     course: PropTypes.object.isRequired,
+    handleCourseAdd: PropTypes.func.isRequired
 
 }
 export default Course;
