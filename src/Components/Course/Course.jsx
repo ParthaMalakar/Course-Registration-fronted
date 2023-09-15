@@ -1,14 +1,20 @@
 import PropTypes from 'prop-types';
-const Course = ({course}) => {
-    const {id,picture,course_name,description,price,credit} = course;
+import { AiOutlineRead  } from 'react-icons/ai';
+const Course = ({ course }) => {
+    const { id, picture, course_name, description, price, credit } = course;
     return (
-        <div className='bg-[#FFF] p-3'>
+        <div className='bg-[#FFF] p-3 rounded-lg'>
             <div className='space-y-4 p-3'>
-            <img className='w-[250px] h-[200px] ' src={picture} alt={`Cover picture of the title ${course_name}`} />
-            <h5 className='text-lg font-semibold'>{course_name}</h5>
-            <h3 className='w-[245px] font-normal text-sm'>{description}</h3>
-            
-        </div>
+                <img className='w-[250px] h-[200px] ' src={picture} alt={`Cover picture of the title ${course_name}`} />
+                <h5 className='text-lg font-semibold'>{course_name}</h5>
+                <h3 className='w-[245px] font-normal text-sm'>{description}</h3>
+                <div className='flex justify-between'>
+                    <p>$ Price : {price}</p>
+                    <p className='flex text-center justify-center'><AiOutlineRead className='text-2xl'></AiOutlineRead>Credit :{credit}hr</p>                   
+                </div>
+                <button className='btn text-xl text-center bg-[#2F80ED] w-[240px] py-2 rounded-lg  text-white font-semibold'>Select</button>
+
+            </div>
         </div>
     );
 };
