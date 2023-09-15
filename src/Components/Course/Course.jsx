@@ -12,7 +12,8 @@ const Course = ({ course , handleCourseAdd }) => {
                     <p>$ Price : {price}</p>
                     <p className='flex text-center justify-center'><AiOutlineRead className='text-2xl'></AiOutlineRead>Credit :{credit}hr</p>                   
                 </div>
-                <button onClick={handleCourseAdd} className='btn text-xl text-center bg-[#2F80ED] w-[240px] py-2 rounded-lg  text-white font-semibold'>Select</button>
+                <button onClick={() => handleCourseAdd(course)} 
+                className='btn text-xl text-center bg-[#2F80ED] w-[240px] py-2 rounded-lg  text-white font-semibold'>Select</button>
 
             </div>
         </div>
