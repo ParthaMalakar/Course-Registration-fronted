@@ -3,7 +3,7 @@ import { useState } from "react";
 import Course from "../Course/Course";
 import PropTypes from 'prop-types';
 
-const Courses = ({handleCourseAdd}) => {
+const Courses = ({handleCourseAdd,handleEventAdd}) => {
     const [courses, setCourses] = useState([]);
 
     useEffect(() => {
@@ -18,6 +18,7 @@ const Courses = ({handleCourseAdd}) => {
                  key={course.id}
                  course={course}
                  handleCourseAdd={handleCourseAdd}
+                 handleEventAdd ={handleEventAdd}
                  >
 
                 </Course>)
@@ -26,6 +27,7 @@ const Courses = ({handleCourseAdd}) => {
     );
 };
 Courses.propTypes = {
-    handleCourseAdd: PropTypes.func
+    handleCourseAdd: PropTypes.func,
+    handleEventAdd:PropTypes.func
 }
 export default Courses;

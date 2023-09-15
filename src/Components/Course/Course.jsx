@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { AiOutlineRead  } from 'react-icons/ai';
-const Course = ({ course , handleCourseAdd }) => {
+const Course = ({ course , handleCourseAdd,handleEventAdd }) => {
     const {  picture, course_name, description, price, credit } = course;
     return (
         <div className='bg-[#FFF] p-3 rounded-lg'>
@@ -12,7 +12,7 @@ const Course = ({ course , handleCourseAdd }) => {
                     <p>$ Price : {price}</p>
                     <p className='flex text-center justify-center'><AiOutlineRead className='text-2xl'></AiOutlineRead>Credit :{credit}hr</p>                   
                 </div>
-                <button onClick={() => handleCourseAdd(course)} 
+                <button onClick={() => { handleCourseAdd(course); handleEventAdd(course); }} 
                 className='btn text-xl text-center bg-[#2F80ED] w-[240px] py-2 rounded-lg  text-white font-semibold'>Select</button>
 
             </div>
@@ -21,7 +21,8 @@ const Course = ({ course , handleCourseAdd }) => {
 };
 Course.propTypes = {
     course: PropTypes.object.isRequired,
-    handleCourseAdd: PropTypes.func.isRequired
+    handleCourseAdd: PropTypes.func.isRequired,
+    handleEventAdd:PropTypes.func
 
 }
 export default Course;

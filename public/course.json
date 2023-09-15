@@ -5,7 +5,7 @@
       "course_name": "Digital Marketing Mastery",
       "description": "Learn the ins and outs of digital marketing, including SEO, social media, and email marketing, to boost your online presence and drive business growth.",
       "price": 299,
-      "credit": 3
+      "credit": 5
     },
     {
       "id": 2,
@@ -13,7 +13,7 @@
       "course_name": "Creative Writing Workshop",
       "description": "Unleash your creativity and enhance your writing skills with our interactive workshop, led by experienced authors and poets.",
       "price": 199,
-      "credit": 2
+      "credit": 7
     },
     {
       "id": 3,
@@ -27,7 +27,7 @@
       "id": 4,
       "picture": "https://i.ibb.co/PZBPk4M/8253520.jpg",
       "course_name": "Culinary Arts Masterclass",
-      "description": "Hone your culinary skills with expert chefs, and master the art of creating gourmet dishes.",
+      "description": "Hone your culinary skills with expert chefs, and master the art of creating gourmet dishes. Advanced cooking techniques, knife skills, and various cooking methods.",
       "price": 249,
       "credit": 2
     },
@@ -35,7 +35,7 @@
       "id": 5,
       "picture": "https://i.ibb.co/FXhQXYC/6836.jpg",
       "course_name": "Financial Planning and Wealth Management",
-      "description": "Learn to navigate the world of finance, make smart investments, and plan for a secure financial future.",
+      "description": "Learn to navigate the world of finance,make smart investments, and plan for a secure financial future.",
       "price": 499,
       "credit": 3
     },
@@ -43,7 +43,7 @@
       "id": 6,
       "picture": "https://i.ibb.co/DVJnvHn/webdeveloper-1.jpg",
       "course_name": "Web Development Bootcamp",
-      "description": "Become a proficient web developer by mastering HTML, CSS, JavaScript, and popular frameworks.",
+      "description": "Become a proficient web developer by mastering HTML, CSS, JavaScript,React and popular frameworks.",
       "price": 349,
       "credit": 3
     },
@@ -51,7 +51,7 @@
       "id": 7,
       "picture": "https://i.ibb.co/C1B642L/282517-P6-KCUK-313.jpg",
       "course_name": "Graphic Design Fundamentals",
-      "description": "Unlock your creative potential with this course on graphic design, covering tools, principles, and projects.",
+      "description": "Unlock your creative potential with this course on graphic design, covering tools, principles.",
       "price": 199,
       "credit": 2
     },
@@ -61,7 +61,7 @@
       "course_name": "Yoga and Mindfulness Meditation",
       "description": "Achieve inner peace and physical fitness through the practice of yoga and mindfulness meditation.",
       "price": 149,
-      "credit": 1
+      "credit": 8
     },
     {
       "id": 9,
