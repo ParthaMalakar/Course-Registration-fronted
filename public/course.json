@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "picture": "https://i.ibb.co/74pC2z5/245981-P4-BTUZ-881.jpg",
+      "course_name": "Digital Marketing Mastery",
+      "description": "Learn the ins and outs of digital marketing, including SEO, social media, and email marketing, to boost your online presence and drive business growth.",
+      "price": 299,
+      "credit": 3
+    },
+    {
+      "id": 2,
+      "picture": "https://i.ibb.co/pLpwxkq/22152.jpg",
+      "course_name": "Creative Writing Workshop",
+      "description": "Unleash your creativity and enhance your writing skills with our interactive workshop, led by experienced authors and poets.",
+      "price": 199,
+      "credit": 2
+    },
+    {
+      "id": 3,
+      "picture": "https://i.ibb.co/p34FVTQ/19599.jpg",
+      "course_name": "Introduction to Artificial Intelligence",
+      "description": "Dive into the fascinating world of AI, covering machine learning, neural networks, and real-world applications.",
+      "price": 399,
+      "credit": 4
+    },
+    {
+      "id": 4,
+      "picture": "https://i.ibb.co/PZBPk4M/8253520.jpg",
+      "course_name": "Culinary Arts Masterclass",
+      "description": "Hone your culinary skills with expert chefs, and master the art of creating gourmet dishes.",
+      "price": 249,
+      "credit": 2
+    },
+    {
+      "id": 5,
+      "picture": "https://i.ibb.co/FXhQXYC/6836.jpg",
+      "course_name": "Financial Planning and Wealth Management",
+      "description": "Learn to navigate the world of finance, make smart investments, and plan for a secure financial future.",
+      "price": 499,
+      "credit": 3
+    },
+    {
+      "id": 6,
+      "picture": "https://i.ibb.co/DVJnvHn/webdeveloper-1.jpg",
+      "course_name": "Web Development Bootcamp",
+      "description": "Become a proficient web developer by mastering HTML, CSS, JavaScript, and popular frameworks.",
+      "price": 349,
+      "credit": 3
+    },
+    {
+      "id": 7,
+      "picture": "https://i.ibb.co/C1B642L/282517-P6-KCUK-313.jpg",
+      "course_name": "Graphic Design Fundamentals",
+      "description": "Unlock your creative potential with this course on graphic design, covering tools, principles, and projects.",
+      "price": 199,
+      "credit": 2
+    },
+    {
+      "id": 8,
+      "picture": "https://i.ibb.co/hBRmpc4/369672-PB8-QBH-111.jpg",
+      "course_name": "Yoga and Mindfulness Meditation",
+      "description": "Achieve inner peace and physical fitness through the practice of yoga and mindfulness meditation.",
+      "price": 149,
+      "credit": 1
+    },
+    {
+      "id": 9,
+      "picture": "https://i.ibb.co/6s4ZkKL/7751253-3740160.jpg",
+      "course_name": "Environmental Sustainability Studies",
+      "description": "Explore critical environmental issues and sustainable solutions to make a positive impact on the planet.",
+      "price": 299,
+      "credit": 3
+    }
+  ]
+  
