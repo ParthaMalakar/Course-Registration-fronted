@@ -9,21 +9,33 @@ import 'react-toastify/dist/ReactToastify.css';
 function App() {
 const [courseLog,setCourseLog]=useState([]);
 const handleEventAdd = course => {
-  
+  console.log(course)
 }
 const handleCourseAdd = course => {
   const courseExist = courseLog.find(existing => existing.id === course.id)
 
   if(!courseExist)
   {
-    
+    let TWO = document.getElementById('two')
+    const Remove_value = TWO.innerText;
+    const remove_total_Number = parseFloat(Remove_value); 
+    let cred = course.credit;
+    let remove_credit = remove_total_Number - cred;
+    if(remove_credit<0){
+      toast.error(`credit not negative you wanted ${remove_credit}credit`, {
+        position: toast.POSITION.TOP_CENTER,
+      });
+    }
+    else{
+      TWO.innerText=remove_credit;
+    }
   let DDD = document.getElementById('zero')
   const ALLValue = DDD.innerText;
   const totalNumber = parseFloat(ALLValue);
   let credit = course.credit;
   let TotalCredit = totalNumber + credit;
   if(TotalCredit>20){
-    toast.error(`20 credit Limit exist`, {
+    toast.error(`20 credit Limit exist for you wanted ${TotalCredit}credit`, {
       position: toast.POSITION.TOP_CENTER,
     });
   }
