@@ -57,7 +57,7 @@ function App() {
       <div className='bg-[#F3F3F3]'>
         <Header></Header>
         <ToastContainer></ToastContainer>
-        <div className='md:flex max-w-7xl mx-auto'>
+        <div className='lg:flex max-w-7xl mx-auto'>
           <Courses handleCourseAdd={handleCourseAdd}></Courses>
           <CourseLog courseLog={courseLog} price={price} remaining={remaining} add_credit={add_credit}></CourseLog>
         </div>

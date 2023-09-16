@@ -12,7 +12,7 @@ const Courses = ({handleCourseAdd}) => {
             .then(data => setCourses(data))
     }, [])
     return (
-        <div className="w-[75%] grid grid-cols-3 gap-5 mt-8">
+        <div className="lg:w-[75%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-5 mt-8">
              {
                 courses.map(course => <Course
                  key={course.id}
